@@ -10,7 +10,9 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(255, 255, 255);
+  font-family: 'Larken', sans-serif;
+
   
   h4 {
     margin-bottom: 40px;
@@ -18,7 +20,13 @@
 
   h1 {
     margin-bottom: 30px;
-   }
+    font-family: 'Larken';
+  }
+
+  h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
 
   form {
     width: 80%;
@@ -31,19 +39,36 @@
     width: 100%;
   }
 
+  .rose-image {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .rose-image2 {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+  }
+
   button {
     width: 100%;
     max-width: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    
   }
 
   .create-account-link {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     display: block;
     text-align: center;
-    margin-top: 10px;
-    text-decoration: underline;
-    color: blue; // Adjust the color as needed
+
   }
 
   @include mobile-responsive {
